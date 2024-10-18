@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+</head>
+<body>
+    <h1>Library Management System</h1>
+    <form action="/add_book" method="POST">
+        <label for="title">Title:</label><br>
+        <input type="text" id="title" name="title"><br>
+        <label for="author">Author:</label><br>
+        <input type="text" id="author" name="author"><br>
+        <label for="publisher">Publisher:</label><br>
+        <input type="text" id="publisher" name="publisher"><br>
+        <label for="isbn">ISBN:</label><br>
+        <input type="text" id="isbn" name="isbn"><br>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity"><br>
+        <input type="submit" value="Add Book">
+    </form>
+    <a href="/books">View Books</a>
+</body>
+</html>
